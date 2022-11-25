@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300&family=Rubik+Distressed&family=Secular+One&display=swap');
+
+/* Main View */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    height: fit-content;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: x-large;
+}
+
+.game-area {
+    width: 75%;
+    min-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 1%;
+    text-align: center;
+    background-color: bisque;
+}
+#make-move {
+    font-family: 'Lato' sans-serif;
+    font-weight: 900;
+    font-size: larger;
+}
+
+
+.control {
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Rubik Distressed', sans-serif;
+    font-size: large;
+    margin: 2px;
+    width: 120px;
+    height: 70px;
+}
+
+#messages {
+    height: 50px;
+}
+
+.player {
+    background-color: lightgrey;
+    float: left;
+    width: 45%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 30px;
+
+}
+
+.computer {
+    background-color: rgb(205, 16, 16);
+    float: right;
+    width: 45%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(51, 207, 207);
+    background-color: rgb(36, 36, 55);
+}

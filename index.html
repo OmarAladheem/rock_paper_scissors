@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,30 +14,37 @@
     <header>
         <h1>Rock Paper Scissors</h1>
     </header>
-
-    <div>
-        <p>Make your move!</p>
-        <button aria-label="Rock" data-choice="0" class="control">Rock <i class="fa-regular fa-hand-back-fist"></i></button>
-        <button aria-label="Paper" data-choice="1" class="control">Paper <i class="fa-regular fa-hand"></i></button>
-        <button aria-label="Scissors" data-choice="2" class="control">Scissors <i class="fa-regular fa-hand-scissors"></i></button>
-    </div>
-    <div id="messages"></div>
-    <div class="player">
-        <h3 class="scores">Your score: <span id="player-score">0</span></h3>
-        <img id="player-image" src="assets/images/rps.png" alt="Rock Paper Scissors" width="150px" height="150px">
-    </div>
-    <div class="computer">
-        <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
-        <img id="computer-image" src="assets/images/rps.png" alt="Rock Paper Scissors" width="150px" height="150px">
-    </div>
+    <section class="game-area">
+        <div>
+            <p id="make-move">Make your move!</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock <br><i
+                    class="fa-regular fa-hand-back-fist"></i></button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper <br><i class="fa-regular fa-hand"></i></button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors <br><i
+                    class="fa-regular fa-hand-scissors"></i></button>
+        </div>
+        <div id="messages"></div>
+        <div class="player">
+            <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+            <img id="player-image" src="assets/images/rps.png" alt="Rock Paper Scissors" width="100px" height="100px">
+        </div>
+        <div class="computer">
+            <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
+            <img id="computer-image" src="assets/images/rps.png" alt="Rock Paper Scissors" width="100px" height="100px">
+        </div>
+    </section>
 
     <footer>
         <h3>Rules</h3>
-        <p>Scissors <i class="fa-regular fa-hand-scissors"></i> cut Paper <i class="fa-regular fa-hand"></i> | Paper <i class="fa-regular fa-hand"></i> covers Rock <i class="fa-regular fa-hand-back-fist"></i> | Rock <i class="fa-regular fa-hand-back-fist"></i> blunts Scissors <i class="fa-regular fa-hand-scissors"></i></p>
+        <p>Scissors <i class="fa-regular fa-hand-scissors"></i> cut Paper <i class="fa-regular fa-hand"></i> | Paper <i
+                class="fa-regular fa-hand"></i> covers Rock <i class="fa-regular fa-hand-back-fist"></i> | Rock <i
+                class="fa-regular fa-hand-back-fist"></i> blunts Scissors <i class="fa-regular fa-hand-scissors"></i>
+        </p>
     </footer>
 
 
 
     <script src="assets/js/index.js"></script>
 </body>
+
 </html>
